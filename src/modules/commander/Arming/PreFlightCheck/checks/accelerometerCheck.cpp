@@ -85,7 +85,7 @@ bool PreFlightCheck::accelerometerCheck(orb_advert_t *mavlink_log_pub, vehicle_s
 					}
 
 					/* this is frickin' fatal */
-					accel_valid = false;
+					// accel_valid = false;
 				}
 			}
 		}
