@@ -1,0 +1,14 @@
+#!/bin/sh
+#
+# @name Typhoon H480 SITL
+#
+# @type Hexarotor x
+#
+
+sh /etc/init.d/rc.mc_defaults
+
+# if [ $AUTOCNF = yes ]
+# then
+# fi
+
+set MIXER hexa_x
